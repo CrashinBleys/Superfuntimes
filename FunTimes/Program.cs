@@ -82,6 +82,8 @@ namespace FunTimes
             Console.WriteLine("the bandit crumples to the ground with a bloody nose.");
 
             Console.WriteLine("you broke my perfect nose! the bandit says through sobs");
+
+            Console.WriteLine();
         }
 
         private static void GoWest()
@@ -157,7 +159,7 @@ namespace FunTimes
 
             Console.WriteLine("The bandit stairs up at you bug eyed and afraid.");
 
-            Console.WriteLine("Please dont hurt me!  i have a wife and three kids!");
+            Console.WriteLine("\"Please dont hurt me!  i have a wife and three kids!\"");
 
             Console.WriteLine("You doubt that this man has a family and hes only trying to get away");
 
@@ -174,11 +176,17 @@ namespace FunTimes
                 Console.WriteLine("You dont stop choking the bandit until he gurgles his last words.");
 
                 Console.WriteLine("More are coming for you...");
+
+                Console.WriteLine("You ponder the bandits last words as you check for any loot.  You find a cheap dagger that could barely cut butter, and a note.");
+
+                
             }
 
             else if (attack == "spare him")
             {
                 Console.WriteLine("get up scum!  The bandit stands up, brushes the dust and dirt of his clothes.");
+
+                Console.WriteLine();
             }
         }
 
@@ -192,9 +200,11 @@ namespace FunTimes
 
             Console.WriteLine(
                 "As you approach the village square you see three men in chainmail armor with halberds in there hands.");
-            coloredconsolewrite (ConsoleColor.Red)
+            
             Console.WriteLine(
                 "The soldiers see you and immediatley approach you. \"HALT\" the leader says. \"We have reports of bandits in the area\"");
+
+            Console.WriteLine("");
         }
 
         private static void AskSex()
